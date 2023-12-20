@@ -1,0 +1,14 @@
+{
+  "name": "xstate-tree",
+  "private": true,
+  "description": "A syntax tree spec and related tooling for XState",
+  "keywords": [
+    "xstate",
+    "ast",
+    "syntax-tree"
+  ],
+  "author": "with-heart <with.heart+git@pm.me>",
+  "license": "MIT",
+  "scripts": {},
+  "dependencies": {}
+}
