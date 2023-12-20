@@ -9,12 +9,23 @@
   ],
   "author": "with-heart <with.heart+git@pm.me>",
   "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "test": "vitest"
   },
   "dependencies": {
+    "@babel/preset-env": "^7.23.6",
+    "@babel/preset-typescript": "^7.23.3",
     "@changesets/changelog-github": "^0.5.0",
     "@changesets/cli": "^2.27.1",
+    "@preconstruct/cli": "^2.8.2",
     "vitest": "^1.1.0"
+  },
+  "preconstruct": {
+    "packages": [
+      "packages/*"
+    ]
   }
 }
