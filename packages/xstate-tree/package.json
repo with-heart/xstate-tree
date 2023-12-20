@@ -1,0 +1,15 @@
+{
+  "name": "@with-heart/xstate-tree",
+  "version": "0.0.0",
+  "description": "A syntax tree specification for XState",
+  "author": "with-heart <with.heart+git@pm.me>",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "scripts": {},
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.2",
+    "@tsconfig/strictest": "^2.0.2"
+  }
+}
