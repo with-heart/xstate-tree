@@ -9,6 +9,10 @@
   ],
   "author": "with-heart <with.heart+git@pm.me>",
   "license": "MIT",
-  "scripts": {},
-  "dependencies": {}
+  "scripts": {
+    "test": "vitest"
+  },
+  "dependencies": {
+    "vitest": "^1.1.0"
+  }
 }
